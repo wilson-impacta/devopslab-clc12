@@ -73,7 +73,7 @@ jobs:
       - name: Validando a API
         run: 'curl "${{ steps.deploy.outputs.url }}"'
 
-10-DAST
+
   DAST:
     needs: Deploy
     runs-on: ubuntu-latest
