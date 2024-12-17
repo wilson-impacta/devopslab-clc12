@@ -91,10 +91,6 @@ jobs:
         with:
           target: 'https://wilsonfilho-fgxq5tbfwq-ue.a.run.app/'
 
-
-
-
-=======
       - name: Notificação Slack
         id: slack
         uses: slackapi/slack-github-action@v1.25.0
