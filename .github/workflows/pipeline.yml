@@ -63,4 +63,4 @@ jobs:
           flags: '--allow-unauthenticated'
 
       - name: Validando a API
-        run: 'curl "${{ steps.deploy.outputs.url }}"' 
+        run: 'curl "${{ steps.deploy.outputs.url }}"'
