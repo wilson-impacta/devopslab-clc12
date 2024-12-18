@@ -4,4 +4,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def pagina_inicial():
-    return "Wilson Filho v1.0"
+    return "Wilson Filho - Lab Concluido"
