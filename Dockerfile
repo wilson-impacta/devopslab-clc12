@@ -2,7 +2,7 @@
 FROM python:3
 
 # Declarando a váriavel do nome do arquivo de configuração do NewRelic
-ENV NEW_RELIC_CONFIG_FILE=/home/myapp/newrelic.ini  NEW_RELIC_LICENSE_KEY=licensekey
+ENV NEW_RELIC_CONFIG_FILE=/home/myapp/newrelic.ini NEW_RELIC_LICENSE_KEY=licensekey
 
 # Adicionando um usuário de sistema
 RUN adduser --system --home /home/myapp  myapp
